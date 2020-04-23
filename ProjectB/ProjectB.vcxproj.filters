@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TextureLoader">
+      <UniqueIdentifier>{76154cd7-e832-40be-879e-e3346ee3d03e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Selector">
+      <UniqueIdentifier>{2db4dde1-cdf5-499c-a6f5-41bcc057d028}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameTitle">
+      <UniqueIdentifier>{9c7a2f4e-fa91-489c-b716-8e900f17af26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameOver">
+      <UniqueIdentifier>{1085bdb6-767b-4ea4-83d9-274a8fe5cd12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{b9ec2399-1cde-475c-b7bc-40c7914d9219}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameRule">
+      <UniqueIdentifier>{b39f4bf6-856a-403d-ac2a-118e80694646}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{b1fa061b-c265-4b40-907f-79680fc8fed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSound">
+      <UniqueIdentifier>{d41b3307-9512-4d28-bffb-c8819e445969}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSound\cpp">
+      <UniqueIdentifier>{dad38147-e2cf-4ba9-b82b-f220f4d6b443}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameSound\h">
+      <UniqueIdentifier>{c5e10b4d-4c37-479b-a387-f91bd11ea032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Player">
+      <UniqueIdentifier>{a351b840-1cb1-477d-8a63-240b02da26c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\UI">
+      <UniqueIdentifier>{015e3a81-bd69-43ef-9d93-c4eaa9d9e4f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Enemy">
+      <UniqueIdentifier>{bfc3246c-b8fa-4862-8f45-eb9a9e0f04e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\BG">
+      <UniqueIdentifier>{17159003-f8fe-464d-8854-e17148da0629}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Shot">
+      <UniqueIdentifier>{497e98cf-ef63-4177-b05b-6437bcccb0e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Item">
+      <UniqueIdentifier>{b9f30d21-195f-4cc3-a68a-e795ad43d3a3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectB.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ddsfunctions.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureLoader.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="tgafunctions.h">
+      <Filter>TextureLoader</Filter>
+    </ClInclude>
+    <ClInclude Include="Selector.h">
+      <Filter>Selector</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameScene.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>GameTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRule.h">
+      <Filter>GameRule</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="PcmCallback.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PcmSound.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="PcmStreamSound.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="SDKwavefile.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="XAudio2Context.h">
+      <Filter>GameSound\h</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="ShadowPlayer.h">
+      <Filter>Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PurpleUI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StarUI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="HPUI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BG.h">
+      <Filter>Game\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="Ground.h">
+      <Filter>Game\BG</Filter>
+    </ClInclude>
+    <ClInclude Include="IGameObject.h">
+      <Filter>System</Filter>
+    </ClInclude>
+    <ClInclude Include="Shot.h">
+      <Filter>Game\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="StarShot.h">
+      <Filter>Game\Shot</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyManager.h">
+      <Filter>Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemManager.h">
+      <Filter>Game\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Game\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Score.h">
+      <Filter>GameOver</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectB.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureLoader.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="ddsfunctions.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="tgafunctions.cpp">
+      <Filter>TextureLoader</Filter>
+    </ClCompile>
+    <ClCompile Include="Selector.cpp">
+      <Filter>Selector</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameScene.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>GameTitle</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRule.cpp">
+      <Filter>GameRule</Filter>
+    </ClCompile>
+    <ClCompile Include="GameData.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="PcmCallback.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PcmSound.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="PcmStreamSound.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SDKwavefile.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="XAudio2Context.cpp">
+      <Filter>GameSound\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="ShadowPlayer.cpp">
+      <Filter>Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PurpleUI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StarUI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="HPUI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="BG.cpp">
+      <Filter>Game\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="Ground.cpp">
+      <Filter>Game\BG</Filter>
+    </ClCompile>
+    <ClCompile Include="IGameObject.cpp">
+      <Filter>System</Filter>
+    </ClCompile>
+    <ClCompile Include="Shot.cpp">
+      <Filter>Game\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="StarShot.cpp">
+      <Filter>Game\Shot</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyManager.cpp">
+      <Filter>Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemManager.cpp">
+      <Filter>Game\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="UI.cpp">
+      <Filter>Game\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Score.cpp">
+      <Filter>GameOver</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ProjectB.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+    <Image Include="ProjectB.ico">
+      <Filter>リソース ファイル</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
